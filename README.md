@@ -23,15 +23,9 @@ git clone https://github.com/rolloerro/productlab_test.git
 cd productlab_test
 python -m venv venv
 source venv/bin/activate   # macOS / Linux
-# или
+# 
 venv\Scripts\activate      # Windows
 pip install -r requirements.txt
-
-
-Создай файл .env в корне проекта и добавь токен Telegram-бота:
-
-BOT_TOKEN=your_telegram_token_here
-
 
 Запусти сервер и бота:
 
@@ -76,9 +70,7 @@ main.py
 📧 coplow@yandex.ru
 
 💬 Telegram: @MSL72Rph
-
 💻 GitHub: rolloerro
-
 🎯 Миссия
 
 Создаю умные системы, где код и медицина соединяются в пользу людей.
